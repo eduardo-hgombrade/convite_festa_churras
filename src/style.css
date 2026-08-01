@@ -1,0 +1,171 @@
+        /* Base styles */
+        body {
+            background-color: #ffde59; /* Bright yellow background */
+            font-family: 'Open Sans', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Invitation Card Container */
+        .card {
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 8px 8px 0px #ff914d, 0 0 15px rgba(0,0,0,0.1);
+            border: 4px solid #333; /* Thick cartoon outline */
+            max-width: 500px;
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Header Section */
+        .header {
+            background-color: #ff5757; /* Bright red */
+            color: white;
+            text-align: center;
+            padding: 30px 20px 20px;
+            border-bottom: 4px solid #333;
+            position: relative;
+        }
+
+        .header h1 {
+            font-family: 'Fredoka One', cursive;
+            font-size: 2.5em;
+            margin: 0;
+            text-shadow: 3px 3px 0px #333; /* Cartoon drop shadow */
+            letter-spacing: 2px;
+        }
+
+        .header p {
+            font-family: 'Fredoka One', cursive;
+            font-size: 1.2em;
+            margin: 10px 0 0;
+            color: #ffde59;
+            text-shadow: 1px 1px 0px #333;
+        }
+
+        /* Decorative Elements - Pure CSS */
+        .flame-left, .flame-right {
+            position: absolute;
+            top: 15px;
+            font-size: 2em;
+        }
+        .flame-left { left: 20px; }
+        .flame-right { right: 20px; }
+
+        /* Content Section */
+        .content {
+            padding: 30px;
+            text-align: center;
+            color: #333;
+        }
+
+        .intro {
+            font-size: 1.3em;
+            margin-bottom: 25px;
+            font-weight: 600;
+        }
+
+        /* Details Box */
+        .details-box {
+            background-color: #c1ff72; /* Light green */
+            border: 3px dashed #333;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 25px;
+            transform: rotate(-1deg); /* Slight tilt for cartoon feel */
+        }
+
+        .detail-item {
+            margin: 10px 0;
+            font-size: 1.1em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .detail-icon {
+            font-size: 1.5em;
+        }
+
+        /* The Rule (Kit Churrasco) */
+        .rule {
+            background-color: #5ce1e6; /* Light blue */
+            border: 3px solid #333;
+            border-radius: 10px;
+            padding: 15px;
+            font-family: 'Fredoka One', cursive;
+            font-size: 1.1em;
+            color: #333;
+            transform: rotate(1deg);
+            box-shadow: 4px 4px 0px #333;
+        }
+
+        .rule span {
+            display: block;
+            font-size: 0.9em;
+            font-family: 'Open Sans', sans-serif;
+            margin-top: 5px;
+            color: #444;
+        }
+
+        /* Footer / Location placeholder */
+        .footer {
+            margin-top: 25px;
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+
+        /* Botão do Google Maps */
+        .location-btn {
+            display: inline-block;
+            margin-top: 5px;
+            padding: 12px 25px;
+            background-color: #ff914d; /* Laranja vibrante */
+            color: white;
+            text-decoration: none;
+            text-shadow: 3px 3px 0px #333; /* Cartoon drop shadow */
+            font-family: 'Fredoka One', cursive;
+            font-size: 1.1em;
+            border: 3px solid #333;
+            border-radius: 12px;
+            box-shadow: 4px 4px 0px #333;
+            transition: all 0.1s ease-in-out;
+            cursor: pointer;
+        }
+
+        /* Efeito ao passar o mouse */
+        .location-btn:hover {
+            background-color: #ff5757; /* Muda para vermelho */
+        }
+
+        /* Efeito de clique no botão (afunda) */
+        .location-btn:active {
+            transform: translate(4px, 4px);
+            box-shadow: 0px 0px 0px #333;
+        }
+
+        /* SVG Cartoon Grill Decoration */
+        .grill-container {
+            text-align: center;
+            margin-top: -15px;
+            margin-bottom: 10px;
+        }
+        
+        .grill-svg {
+            width: 120px;
+            height: auto;
+        }
+
+        /* Media Query for smaller screens */
+        @media (max-width: 400px) {
+            .header h1 { font-size: 2em; }
+            .content { padding: 20px; }
+            .details-box { padding: 15px; }
+        }
