@@ -134,9 +134,15 @@
         }
 
         .footer strong {
+            padding: 5px;
             font-family: 'Fredoka One', cursive;
-            font-size: 1.1em;
+            font-size: 1.2em;
             font-weight: 400;
+        }
+
+        /* Remove a margem automática dos parágrafos para alinhar com os ícones */
+        .detail-item p, .footer p {
+            margin: 0;
         }
 
         /* Botão do Google Maps */
