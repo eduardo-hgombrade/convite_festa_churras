@@ -46,7 +46,7 @@
             font-size: 1.2em;
             margin: 10px 0 0;
             color: #ffde59;
-            text-shadow: 1px 1px 0px #333;
+            text-shadow: 2px 2px 0px #333; /* Cartoon drop shadow */
         }
 
         /* Decorative Elements - Pure CSS */
@@ -79,6 +79,14 @@
             padding: 20px;
             margin-bottom: 25px;
             transform: rotate(-1deg); /* Slight tilt for cartoon feel */
+        }
+
+        .details-box strong {
+            font-family: 'Fredoka One', cursive;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            color: #333;
+            font-weight: 400;
         }
 
         .detail-item {
@@ -125,6 +133,12 @@
             font-weight: 600;
         }
 
+        .footer strong {
+            font-family: 'Fredoka One', cursive;
+            font-size: 1.1em;
+            font-weight: 400;
+        }
+
         /* Botão do Google Maps */
         .location-btn {
             display: inline-block;
@@ -133,9 +147,10 @@
             background-color: #ff914d; /* Laranja vibrante */
             color: white;
             text-decoration: none;
-            text-shadow: 3px 3px 0px #333; /* Cartoon drop shadow */
+            text-shadow: 2px 2px 0px #333; /* Cartoon drop shadow */
             font-family: 'Fredoka One', cursive;
             font-size: 1.1em;
+            font-weight: 400;
             border: 3px solid #333;
             border-radius: 12px;
             box-shadow: 4px 4px 0px #333;
